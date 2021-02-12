@@ -33,3 +33,24 @@ img {
     /* transform: rotateZ(45deg); */
     /* transform: rotateZ(45deg) translateY(200px) scale(1.5); */
 }
+
+/* lesson: 2 */
+.circle {
+    width: 100px;
+    padding: 50px;
+    line-height: 0;
+    margin: 60px auto;
+    background: pink;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    /* linear: is the default timing function */
+    /* ease-in: starts slower and graduatly speeds up */
+    /* ease-out: starts faster and graduatly slows down */
+    transition: background 1s, transform 0.3s 1s ease-out;
+}
+
+.circle:hover {
+    background: salmon;
+    transform: rotate(360deg);
+}
