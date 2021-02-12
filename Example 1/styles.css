@@ -96,7 +96,7 @@ html, body {
 }
 
 
-/* Lesson 4: Mario Drives, Lesson 5: fillmode */
+/* Lesson 4: Mario Drives, Lesson 5: fillmode, Lesson 6: infinite */
 .mario {
     position: absolute;
     top: -40px;
@@ -104,16 +104,17 @@ html, body {
     animation-name: drive;
     animation-duration: 3s;
     animation-fill-mode: both;
-    animation-delay: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
 }
 
 @keyframes drive {
     from {
-        transform: translateX(0);
+        transform: translateX(-100%);
     }
 
     to {
-        transform: translateX(500px);
+        transform: translateX(100vw);
     }
 }
 
