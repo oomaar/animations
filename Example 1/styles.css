@@ -1,0 +1,35 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img { 
+    /* translate */
+    /* moves right if +ve value of px and left if -ve value of px 
+    transform: translateX(-200px);*/
+    /* moves down if +ve value of px and up if -ve value of px  
+    transform: translateY(200px);*/
+    /* translate(value of X, value of Y) 
+    transform: translate(-800px, -30px); */
+
+    /* Scale */
+    /* if value is > 1 then it will stretch X, if value < 1 then it will shrink X 
+    transform: scaleX(0.5);*/
+    /* same on Y */
+    /* transform: scale(X, Y) 
+    transform: scale(0.5, 2.5); */
+
+    /* rotate */
+    /* you won't see the rotaion in X and Y only Z */
+    
+    /* transform: rotateX(100deg); */ 
+    /* transform: rotateY(100deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotateZ(45deg) translateY(200px) scale(1.5); */
+}
